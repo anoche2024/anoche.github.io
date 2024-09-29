@@ -69,15 +69,18 @@ p {
 
 .container {
   position: relative;
-  font-family: Arial;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
 
-.text-block {
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  padding-left: 5px;
-  padding-right: 5px;
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 </style>
 </head>
@@ -86,7 +89,7 @@ p {
 
   
     <div class="header">
-    <div class="text-block">
+    <div class="container">
     <h2>My E-Portfolio</h2>
     <p>The journey of a beautiful girl to the west</p>
     <p>A biography of Anna Sophia Noche - G9 Faith</p>

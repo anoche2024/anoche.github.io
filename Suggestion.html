@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url('HeaderSchool2.png');
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+      video {
+        position: relative;
+      }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+  
+</style>
+</head>
+<body>
+  
+    <div class="header">
+    <div class="container">
+    <div class="content">
+    <h2>My ICT E-Portfolio</h2>
+    <p>A practical application of ICT lessons in Q1</p>
+    <p>Anna Sophia Noche - G9 Faith</p>
+    </div>
+   </div>
+      </div>
+
+<div id="navbar">
+    <a href="Home.html">Home</a>
+    <a href="Videos.html">Videos</a>
+    <a href="Images.html">Images</a>
+    <a href="Audios.html">Audios</a>
+    <a class="active" href="Content.html">Content</a>
+    <a href="Suggestion.html">Suggestion</a>
+</div>
+  
+
+<h3>Customer Survey Satisfaction Form</h2>
+<form action="Process.html" method="Post">
+Enter your name ("Last Name, First Name, Middle initial"):
+<br>
+<textarea name="CustomerName" rows="1" cols="40" wrap="hard" ></textarea>
+<br>
+<br>
+Select City (Current Address):
+<br>
+<select name="select1" size="1"
+<br>
+<option value="Cavite">Cavite</option>
+<option value="LasPinas">Las Pinas</option>
+<option value="Makati">Makati</option>
+<option value="Muntinlupa">Muntinlupa</option>
+<option value="Paranaque">Paranaque</option>
+</select>
+<br>
+<br>
+1) Why did you contact customer service?
+<br>
+<textarea name="SurveyReason" rows="7" cols="63" wrap="hard"></textarea>
+<br><br>
+2) What method did you use to contact customer service?
+<br>
+<input type="radio" name="radio1">Telephone
+<input type="radio" name="radio1">Mail
+<input type="radio" name="radio1">E-Mail
+<input type="radio" name="radio1">Fax
+<input type="radio" name="radio1">Other:<input type="text" name="textbox1" size="10" value="Type here if others">
+<br>
+<br>
+3) How satisfied are you with the time it took customer service to answer your questions or resolve your issue?
+<br>
+<input type="radio" name="radio2">Very Dissatisfied
+<input type="radio" name="radio2">Dissatisfied
+<input type="radio" name="radio2">Undecided
+<input type="radio" name="radio2">Satisfied
+<input type="radio" name="radio2">Very Satisfied
+<br>
+<h4>Please tell us how much you agree or disagree with the following statements</h4>
+4) The customer service representative was knowledgeable and easy to understand.
+<br>
+<input type="radio" name="radio3">Strongly Disagree
+<input type="radio" name="radio3">Disagree
+<input type="radio" name="radio3">Undecided
+<input type="radio" name="radio3">Agree
+<input type="radio" name="radio3">Strongly Agree
+<br>
+<br>
+5) The customer service was able to handle my problem quickly and to my satisfaction.
+<br>
+<input type="radio" name="radio3">Strongly Disagree
+<input type="radio" name="radio3">Disagree
+<input type="radio" name="radio3">Undecided
+<input type="radio" name="radio3">Agree
+<input type="radio" name="radio3">Strongly Agree
+<br>
+<br>
+6) I was treated with respect by the customer service representative.
+<br>
+<input type="radio" name="radio3">Strongly Disagree
+<input type="radio" name="radio3">Disagree
+<input type="radio" name="radio3">Undecided
+<input type="radio" name="radio3">Agree
+<input type="radio" name="radio3">Strongly Agree
+<br>
+<br>
+7) The customer service representative was courteous and professional.
+<br>
+<input type="radio" name="radio3">Strongly Disagree
+<input type="radio" name="radio3">Disagree
+<input type="radio" name="radio3">Undecided
+<input type="radio" name="radio3">Agree
+<input type="radio" name="radio3">Strongly Agree
+<br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="CLEAR">
+</form>
+
+    
+</body>
+</html>

@@ -3,19 +3,39 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 body {
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .header {
-    background-color: #f1f1f1;
-    padding: 30px;
+    background-image: url('HeaderSchool2.png');
+    padding: 50px;
     text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-    
-#navbar {
+
+  #navbar {
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -46,30 +66,44 @@ body {
     padding: 16px;
 }
 
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+  
 </style>
 </head>
 <body>
-
-<div class="header">
-    <h2>My E-Portfolio</h2>
-    <p>The journey of a beautiful girl to the west</p>
-    <p>A biography of Anna Sophia Noche - G9 Faith</p>
-</div>
+  
+    <div class="header">
+    <div class="container">
+    <div class="content">
+    <h2>My ICT E-Portfolio</h2>
+    <p>A practical application of ICT lessons in Q1</p>
+    <p>Anna Sophia Noche - G9 Faith</p>
+    </div>
+   </div>
+      </div>
 
 <div id="navbar">
-    <a href="Home.html">Home</a>
-    <a class="active" href="Videos.html">Videos</a>
+    <a class="active" href="Index.html">Home</a>
+    <a href="Videos.html">Videos</a>
     <a href="Images.html">Images</a>
     <a href="Audios.html">Audios</a>
     <a href="Content.html">Content</a>
     <a href="Suggestion.html">Suggestion</a>
 </div>
 
-<div class="content">
-    <h3>Sticky Navigation Example</h3>
-    <p>Videos</p>
-
-</div>
-
+<p>Videos</p>
 </body>
 </html>

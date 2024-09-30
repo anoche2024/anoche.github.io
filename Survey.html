@@ -89,11 +89,11 @@ body {
 </div>
   
 
-<h3>Customer Survey Satisfaction Form</h2>
+<h3>Survey - Satisfaction Form</h2>
 <form action="Process.html" method="Post">
 Enter your name ("Last Name, First Name, Middle initial"):
 <br>
-<textarea name="CustomerName" rows="1" cols="40" wrap="hard" ></textarea>
+<textarea name="Name" rows="1" cols="40" wrap="hard" ></textarea>
 <br>
 <br>
 Select City (Current Address):
@@ -108,20 +108,20 @@ Select City (Current Address):
 </select>
 <br>
 <br>
-1) Why did you contact customer service?
+1) Why did you visit my website?
 <br>
 <textarea name="SurveyReason" rows="7" cols="63" wrap="hard"></textarea>
 <br><br>
-2) What method did you use to contact customer service?
+2) Who referred you to visit my website?
 <br>
-<input type="radio" name="radio1">Telephone
-<input type="radio" name="radio1">Mail
-<input type="radio" name="radio1">E-Mail
-<input type="radio" name="radio1">Fax
+<input type="radio" name="radio1">Teacher
+<input type="radio" name="radio1">Classmate
+<input type="radio" name="radio1">Friend (outside)
+<input type="radio" name="radio1">Parent
 <input type="radio" name="radio1">Other:<input type="text" name="textbox1" size="10" value="Type here if others">
 <br>
 <br>
-3) How satisfied are you with the time it took customer service to answer your questions or resolve your issue?
+3) How satisfied are you with the sample codes found on my website?
 <br>
 <input type="radio" name="radio2">Very Dissatisfied
 <input type="radio" name="radio2">Dissatisfied
@@ -129,8 +129,8 @@ Select City (Current Address):
 <input type="radio" name="radio2">Satisfied
 <input type="radio" name="radio2">Very Satisfied
 <br>
-<h4>Please tell us how much you agree or disagree with the following statements</h4>
-4) The customer service representative was knowledgeable and easy to understand.
+<h4>Please tell me how much you agree or disagree with the following statements</h4>
+4) The website provided a basic and simple knowledge on creating a basic website
 <br>
 <input type="radio" name="radio3">Strongly Disagree
 <input type="radio" name="radio3">Disagree
@@ -139,7 +139,7 @@ Select City (Current Address):
 <input type="radio" name="radio3">Strongly Agree
 <br>
 <br>
-5) The customer service was able to handle my problem quickly and to my satisfaction.
+5) The website was interesting and enjoyable to browse.
 <br>
 <input type="radio" name="radio3">Strongly Disagree
 <input type="radio" name="radio3">Disagree
@@ -148,7 +148,7 @@ Select City (Current Address):
 <input type="radio" name="radio3">Strongly Agree
 <br>
 <br>
-6) I was treated with respect by the customer service representative.
+6) The website was detailed.
 <br>
 <input type="radio" name="radio3">Strongly Disagree
 <input type="radio" name="radio3">Disagree
@@ -157,7 +157,7 @@ Select City (Current Address):
 <input type="radio" name="radio3">Strongly Agree
 <br>
 <br>
-7) The customer service representative was courteous and professional.
+7) The website provided samples that I can mimic when trying to create my own website.
 <br>
 <input type="radio" name="radio3">Strongly Disagree
 <input type="radio" name="radio3">Disagree
@@ -165,6 +165,16 @@ Select City (Current Address):
 <input type="radio" name="radio3">Agree
 <input type="radio" name="radio3">Strongly Agree
 <br>
+Bonus survey: What other topics would you like to be included on this website? (You can choose 1 or more)
+<br>
+  <input type="checkbox" id="Suggestion1" name="Suggestion1" value="Adding icons on navigation bar">
+  <label for="vehicle1"> Adding icons on navigation bar</label><br>
+  <input type="checkbox" id="Suggestion2" name="Suggestion2" value="Adding effects on texts">
+  <label for="vehicle2"> Adding effects on texts</label><br>
+  <input type="checkbox" id="Suggestion3" name="Suggestion3" value="Adding effects on images">
+  <label for="vehicle3"> Adding effects on images</label><br><br>
+
+<br>    
 <br>
 <input type="submit" value="Submit">
 <input type="reset" value="CLEAR">

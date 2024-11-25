@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICT-E Portfolio</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-image: url('HeaderSchool2.png');
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #E2A3B7;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content {
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+  
+</style>
+</head>
+<body>
+  
+    <div class="header">
+    <div class="container">
+    <div class="content">
+    <h2>My ICT E-Portfolio</h2>
+    <p>A practical application of ICT lessons in Q1</p>
+    <p>Anna Sophia Noche - G9 Faith</p>
+    </div>
+   </div>
+      </div>
+
+<div id="navbar">
+    <a class="active" href="Home.html">Home</a>
+    <a href="Videos.html">Videos</a>
+    <a href="Images.html">Images</a>
+    <a href="Audios.html">Audios</a>
+    <a href="Content.html">Content</a>
+    <a href="Survey.html">Survey</a>
+</div>
+
+<div class="content">
+    <h3><i>Introduction...</i></h3>
+    <img src='AnocheMainPic3.jpg' alt="AnnaMainPic" class="responsive" width="400" height="400">
+    <p>Hello! I am <b>Anna Sophia Noche</b>, G-9 Faith and very excited to show you the fruits of my efforts.</p>
+    <b></b>
+    <p>When browsing this website, you'll see several results rooting from the codes I've learned so far from ICT.</p>
+
+<ul style="list-style-type:square;">
+<li>Basic HTML Codes:</li>
+    <ul>
+      <li>Doctype</li>
+      <li>HTML</li>
+      <li>Head</li>
+      <li>Body</li>
+    </ul>
+<li>Lists</li>
+    <ul>
+      <li>Ordered</li>
+      <li>Unordered</li>
+      <li>Nested lists</li>
+    </ul>
+<li>Tables</li>
+    <ul>
+      <li>Creating a table</li>
+      <li>Modifying a table</li>
+      <li>Nested tables</li>
+      <li>Customizing tables</li>
+    </ul>
+<li>Hyperlinks</li>
+    <ul>
+      <li>Absolute URL</li>
+      <li>Relative URL</li>
+      <li>Named Anchor</li>
+      <li>Other methods of adding links</li>
+    </ul>
+<li>HTML Forms</li>
+    <ul>
+      <li>Forms</li>
+      <li>Textboxes</li>
+      <li>Password boxes</li>
+      <li>Radio buttons</li>
+      <li>Check boxes</li>
+      <li>Dropdown menus</li>
+      <li>Submit buttons</li>
+      <li>Reset buttons</li>    
+      <li>Attributes</li>
+      <li>Textbox</li>
+      <li>Textarea</li>   
+      <li>Dropdown Menus</li>
+      <li>Adding file</li> 
+    </ul>
+<li>CSS</li>
+    <ul>
+      <li>Behaviour Layer</li>
+      <li>Presentation Layer</li>
+      <li>Content Layer</li>
+      <li>Benefits of using CSS</li>
+    </ul>  
+</ul>
+    <p>This also includes some additional advance codes researched from the vast data around the internet.</p>
+    <p>It has been a challenge but entertaining as well seeing your codes brought into life.</p>
+    <p>And this is just the tip of the iceberg! While browsing tutorials, and informative sites, there are still a lot to learn.</p>
+    <b></b>
+    <p>As I don't want to bore you any further, I'll just give you a gist of what you'll see... of course by using a table!</p>
+    <b></b>
+
+<table>
+<tr>
+<td><h2>TABLE OF CONTENTS:</h2></td>
+<td>
+<table>
+  <tr>
+    <th>Page Name</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Videos</td>
+    <td>Videos that run directly through the browser</td>
+    <td><a href="Videos.html">Videos.html</a></td>
+  </tr>
+  <tr>
+    <td>Images</td>
+    <td>Pictures of several ICT lessons</td>
+    <td><a href="Images.html">Images.html</a></td>
+  </tr>
+  <tr>
+    <td>Audios</td>
+    <td>Listen to audios running directly through the browser</td>
+    <td><a href="Audios.html">Audios.html</a></td>
+  </tr>
+  <tr>
+    <td>Content</td>
+    <td>Lessons referenced in creating this site</td>
+    <td><a href="Content.html">Content.html</a></td>
+  </tr>
+  <tr>
+    <td>Survey</td>
+    <td>Sample Survey Form</td>
+    <td><a href="Survey.html">Survey.html</a></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>  
+
+  
+</div>
+</body>
+</html>

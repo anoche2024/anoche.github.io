@@ -1,3 +1,20 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Basic Styles */
 body {
     margin: 0;
     font-size: 20px;
@@ -17,6 +34,63 @@ body {
     color: white;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffefd5;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Colors */
+.stanza1 { color: #ff6666; }
+.stanza2 { color: #66b2ff; }
+.stanza3 { color: #66ff66; }
+.stanza4 { color: #ffcc66; }
+.stanza5 { color: #ff99ff; }
+.stanza6 { color: #99ccff; }
+.stanza7 { color: #ff9966; }
+.stanza8 { color: #66ffcc; }
+.stanza9 { color: #cc99ff; }
+.stanza10 { color: #ffcc99; }
+.stanza11 { color: #99ff99; }
+
+/* Names and Section */
+.names-section {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    text-align: right;
+    color: #ffffff;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #E2A3B7;
+    color: white;
 }
 
 .content {

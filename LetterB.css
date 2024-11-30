@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/07/25/16/00/art-3561710_640.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffefd5;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Link Styling */
+a:link {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ccccff;
+}
+
+a:hover {
+    color: #ffcc99;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff6666;
+}
+
+.names-section {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    text-align: right;
+    color: #ffffff;
+}

@@ -25,20 +25,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-
-.stanza1 { color: #ff6666; }
-.stanza2 { color: #66b2ff; }
-.stanza3 { color: #66ff66; }
-.stanza4 { color: #ffcc66; }
-.stanza5 { color: #ff99ff; }
-.stanza6 { color: #99ccff; }
-.stanza7 { color: #ff9966; }
-.stanza8 { color: #66ffcc; }
-.stanza9 { color: #cc99ff; }
-.stanza10 { color: #ffcc99; }
-.stanza11 { color: #99ff99; }
-
-/* Names and Section */
 .names-section {
     position: fixed;
     bottom: 10px;

@@ -1,0 +1,41 @@
+/* Basic Styles */
+body {
+    background-image: url('https://img.freepik.com/free-photo/dark-blue-product-background_53876-92801.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffefd5;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Colors */
+.stanza1 { color: #ff6666; }
+.stanza2 { color: #66b2ff; }
+.stanza3 { color: #66ff66; }
+.stanza4 { color: #ffcc66; }
+.stanza5 { color: #ff99ff; }
+.stanza6 { color: #99ccff; }
+.stanza7 { color: #ff9966; }
+.stanza8 { color: #66ffcc; }
+.stanza9 { color: #cc99ff; }
+.stanza10 { color: #ffcc99; }
+.stanza11 { color: #99ff99; }
+
+/* Names and Section */
+.names-section {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    text-align: right;
+    color: #ffffff;
+}

@@ -1,20 +1,3 @@
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-/* Basic Styles */
 body {
     margin: 0;
     font-size: 20px;
@@ -36,7 +19,7 @@ body {
     background-size: auto;
 }
 
-/* Title Styling */
+
 h1 {
     font-size: 36px;
     text-align: center;
@@ -44,7 +27,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Paragraph Colors */
+
 .stanza1 { color: #ff6666; }
 .stanza2 { color: #66b2ff; }
 .stanza3 { color: #66ff66; }

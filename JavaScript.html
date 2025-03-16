@@ -98,28 +98,38 @@ body {
 JavaScript is best way explained by providing samples and how it can be applied on your HTML. Try the things below and Enjoy!    
 <br>
 
-<h1>Input and Display Message</h1>
-
-<p>Enter a message</p>
-
+<h3>Type and show message</h3>
+<p>Enter your message on the box below:</p>
   <input type="text" id="msg" ><br>
-  <button onclick="displayMessage()">Click me</button>
-
-
-<p id="showinputhere"></p>
-
+  <button onclick="displayMessage()">Show message below</button>
+<p id="showinputhere1"></p>
 <script>
 function displayMessage(){
-    let themsg = document.getElementById("msg").value;
-    if (themsg){
-        document.getElementById("showinputhere").innerHTML = themsg;
+    let themsg1 = document.getElementById("msg").value;
+    if (themsg1){
+        document.getElementById("showinputhere1").innerHTML = themsg1;
     }
     else{
-        document.getElementById("showinputhere").innerHTML = "No message set";
+        document.getElementById("showinputhere1").innerHTML = "No message set";
     }
 }
 </script>
 
+<h3>Do basic math such as addition</h3>
+<p>Enter a message</p>
+  <input type="number" id="Left" ><br>
+  <input type="number" id="Right" ><br>
+  <button onclick="displayMessage()">Show message below</button>
+<p id="showinputhere2"></p>
+<script>
+function displayMessage(){
+    let var1 = document.getElementById("Left").value
+    let var2 = document.getElementById("Right").value
+    let numx = var1 + var2;
+    document.getElementById("showinputhere2").innerHTML = numx;
+}
+</script>
+    
     
 </body>
 </html>

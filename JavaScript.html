@@ -98,6 +98,23 @@ body {
 JavaScript is best way explained by providing samples and how it can be applied on your HTML. Try the things below and Enjoy!    
 <br>
 
+
+<h3>Prompt box for visitors</h3>
+<p>Click the button:</p>
+<button onclick="myFunction()">Try it</button>
+<p id="name"></p>
+<script>
+function myFunction() {
+  let visitor = prompt("Please type your name", "type your name here");
+  if (confirm(visitor) == true) {
+    person = document.getElementById("name").innerHTML = "Hello " + visitor + "! How are you today?";
+  } else {
+    person = "You canceled the request for your name!";
+  }
+}
+
+</script> 
+    
 <h3>Type and show message</h3>
 <p>Enter your message on the box below:</p>
   <input type="text" id="msg" ><br>

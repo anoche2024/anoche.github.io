@@ -118,8 +118,8 @@ function displayMessage1(){
 
 <br>
 <br>
-<h3>Do basic math such as addition</h3>
-<p>Enter a message</p>
+<h3>Do basic math such as Multiplication</h3>
+<p>Type numbers in the boxes</p>
   <input type="number" id="Left" ><br>
   <input type="number" id="Right" ><br>
   <button onclick="displayMessage2()">Show message below</button>
@@ -132,7 +132,50 @@ function displayMessage2(){
     document.getElementById("showinputhere2").innerHTML = numx;
 }
 </script>
+
+<br>
+<br>
+<h3>Check if numbers are equal</h3>
+<p>Type numbers in the boxes</p>
+  <input type="number" id="Left3" ><br>
+  <input type="number" id="Right3" ><br>
+  <button onclick="displayMessage3()">Show message below</button>
+<p id="showinputhere3"></p>
+<script>
+function displayMessage3(){
+    let var3a = document.getElementById("Left3").value
+    let var3b = document.getElementById("Right3").value
+    let numx3 = var3a == var3b;
+    document.getElementById("showinputhere3").innerHTML = numx3;
+}
+</script>
+
+<br>
+<br>
+<h3>Concatenate words</h3>
+<p>Type numbers in the boxes</p>
+  <input type="text" id="Left4" ><br>
+  <input type="text" id="Right4" ><br>
+  <button onclick="displayMessage4()">Show message below</button>
+<p id="showinputhere4"></p>
+<script>
+function displayMessage4(){
+    let var4a = document.getElementById("Left4").value
+    let var4b = document.getElementById("Right4").value
+    let numx4 = var4a + var4b;
+    document.getElementById("showinputhere4").innerHTML = numx4;
+}
+</script>
     
+<br>
+<br>
+<input type="button" onclick="popup()" value="popup">    
+<script>
+function popup(){
+alert("Welcome")
+}
+</script>
+
     
 </body>
 </html>

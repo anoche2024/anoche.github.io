@@ -98,30 +98,26 @@ body {
 JavaScript is best way explained by providing samples and how it can be applied on your HTML. Try the things below and Enjoy!    
 <br>
 
-<script>
-var greet1="Hello"
-var greet2="World!";
-document.write(greet1+" "+greet2)
+<h1>Input and Display Message</h1>
 
-var compare=10<=8;
-document.write(compare)
+<p>Enter a message</p>
 
-var test3="test3"
-var test4="test4";
-document.write(test3+" "+test4)
+  <input type="text" id="msg" ><br>
+  <button onclick="displayMessage()">Click me</button>
 
-var comparison=10<=10;
-document.write(compare)
 
-</script>
+<p id="showinputhere"></p>
 
 <script>
-var test1="test1"
-var test2="test2";
-document.write(test1+" "+test2)
-
-var comparison=10<=10;
-document.write(compare)
+function displayMessage(){
+    let themsg = document.getElementById("msg").value;
+    if (themsg){
+        document.getElementById("showinputhere").innerHTML = themsg;
+    }
+    else{
+        document.getElementById("showinputhere").innerHTML = "No message set";
+    }
+}
 </script>
 
     

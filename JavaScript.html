@@ -101,10 +101,11 @@ JavaScript is best way explained by providing samples and how it can be applied 
 <h3>Type and show message</h3>
 <p>Enter your message on the box below:</p>
   <input type="text" id="msg" ><br>
-  <button onclick="displayMessage()">Show message below</button>
+  <button onclick="displayMessage1()">Show message below</button>
 <p id="showinputhere1"></p>
+
 <script>
-function displayMessage(){
+function displayMessage1(){
     let themsg1 = document.getElementById("msg").value;
     if (themsg1){
         document.getElementById("showinputhere1").innerHTML = themsg1;
@@ -115,17 +116,19 @@ function displayMessage(){
 }
 </script>
 
+<br>
+<br>
 <h3>Do basic math such as addition</h3>
 <p>Enter a message</p>
   <input type="number" id="Left" ><br>
   <input type="number" id="Right" ><br>
-  <button onclick="displayMessage()">Show message below</button>
+  <button onclick="displayMessage2()">Show message below</button>
 <p id="showinputhere2"></p>
 <script>
-function displayMessage(){
+function displayMessage2(){
     let var1 = document.getElementById("Left").value
     let var2 = document.getElementById("Right").value
-    let numx = var1 + var2;
+    let numx = var1 * var2;
     document.getElementById("showinputhere2").innerHTML = numx;
 }
 </script>
